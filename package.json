@@ -1,0 +1,24 @@
+{
+  "name": "@joshwebtimestwo/repo-checks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only GitHub CI summaries pinned to one commit.",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "repo-checks": "bin/repo-checks.mjs"
+  },
+  "exports": "./src/github.mjs",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/github.mjs && node --check bin/repo-checks.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshwebtimestwo/repo-checks.git"
+  }
+}
+
