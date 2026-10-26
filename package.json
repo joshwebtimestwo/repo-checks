@@ -16,6 +16,10 @@
     "check": "node --check src/github.mjs && node --check bin/repo-checks.mjs"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshwebtimestwo/repo-checks/issues",
+    "email": "josh@webtimestwo.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/joshwebtimestwo/repo-checks.git"

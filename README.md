@@ -112,6 +112,8 @@ Use [GitHub Issues](https://github.com/joshwebtimestwo/repo-checks/issues) for
 bugs and questions. Include a synthetic reproduction, Node version and sanitized
 error output. Remove tokens and private repository/check information.
 
+Email support: [josh@webtimestwo.com](mailto:josh@webtimestwo.com).
+
 Contributions should include a focused test and pass the two development
 commands. Initial implementation was AI-assisted and locally verified.
 
